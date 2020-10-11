@@ -1,0 +1,6 @@
+framework module Pods_ACChecker_ACCheckerUITests {
+  umbrella header "Pods-ACChecker-ACCheckerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -3,19 +3,50 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		264608D625332A0F00E6EDD7 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264608CE25332A0E00E6EDD7 /* InsetTextField.swift */; };
+		264608D725332A0F00E6EDD7 /* CollectionPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264608CF25332A0E00E6EDD7 /* CollectionPicker.swift */; };
+		264608D825332A0F00E6EDD7 /* TextViewInputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264608D025332A0E00E6EDD7 /* TextViewInputCell.swift */; };
+		264608D925332A0F00E6EDD7 /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264608D125332A0E00E6EDD7 /* ButtonCell.swift */; };
+		264608DA25332A0F00E6EDD7 /* SelectInputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264608D225332A0E00E6EDD7 /* SelectInputCell.swift */; };
+		264608DB25332A0F00E6EDD7 /* TextViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264608D325332A0F00E6EDD7 /* TextViewVC.swift */; };
+		264608DC25332A0F00E6EDD7 /* TypedInputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264608D425332A0F00E6EDD7 /* TypedInputCell.swift */; };
+		264608DD25332A0F00E6EDD7 /* FormInputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264608D525332A0F00E6EDD7 /* FormInputCell.swift */; };
+		264608E625332A1600E6EDD7 /* ButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264608E125332A1500E6EDD7 /* ButtonRow.swift */; };
+		264608E725332A1600E6EDD7 /* TextViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264608E225332A1600E6EDD7 /* TextViewRow.swift */; };
+		264608E825332A1600E6EDD7 /* SelectRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264608E325332A1600E6EDD7 /* SelectRow.swift */; };
+		264608E925332A1600E6EDD7 /* TypedRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264608E425332A1600E6EDD7 /* TypedRow.swift */; };
+		264608EA25332A1600E6EDD7 /* FormRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264608E525332A1600E6EDD7 /* FormRow.swift */; };
+		264608F025332A1C00E6EDD7 /* LayoutUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264608EE25332A1C00E6EDD7 /* LayoutUtility.swift */; };
+		264608F125332A1C00E6EDD7 /* FormDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264608EF25332A1C00E6EDD7 /* FormDataSource.swift */; };
+		264608F925332B9600E6EDD7 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264608F825332B9600E6EDD7 /* BaseViewController.swift */; };
+		2646090225332CDB00E6EDD7 /* UIViewController+InputDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2646090125332CDB00E6EDD7 /* UIViewController+InputDialog.swift */; };
+		2646090925332DB900E6EDD7 /* WeatherAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2646090825332DB900E6EDD7 /* WeatherAPIService.swift */; };
+		2646091125332E0400E6EDD7 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2646091025332E0400E6EDD7 /* WeatherData.swift */; };
+		2646091E253333C000E6EDD7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2646091D253333C000E6EDD7 /* Constants.swift */; };
+		264609242533352C00E6EDD7 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264609232533352C00E6EDD7 /* WeatherViewModel.swift */; };
+		2646095C2533389600E6EDD7 /* WeatherRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2646095B2533389600E6EDD7 /* WeatherRouter.swift */; };
+		264609622533390300E6EDD7 /* WeatherInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264609612533390300E6EDD7 /* WeatherInfoVC.swift */; };
+		2646096B253340E200E6EDD7 /* MainViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2646096A253340E200E6EDD7 /* MainViews.swift */; };
+		264609732533456700E6EDD7 /* Int+DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264609722533456700E6EDD7 /* Int+DateFormat.swift */; };
 		2696EB282533174500A28D8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696EB272533174500A28D8D /* AppDelegate.swift */; };
 		2696EB2A2533174500A28D8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696EB292533174500A28D8D /* SceneDelegate.swift */; };
-		2696EB2C2533174500A28D8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696EB2B2533174500A28D8D /* ViewController.swift */; };
 		2696EB2F2533174500A28D8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2696EB2D2533174500A28D8D /* Main.storyboard */; };
 		2696EB322533174500A28D8D /* ACChecker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2696EB302533174500A28D8D /* ACChecker.xcdatamodeld */; };
 		2696EB342533174800A28D8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2696EB332533174800A28D8D /* Assets.xcassets */; };
 		2696EB372533174800A28D8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2696EB352533174800A28D8D /* LaunchScreen.storyboard */; };
 		2696EB422533174800A28D8D /* ACCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696EB412533174800A28D8D /* ACCheckerTests.swift */; };
 		2696EB4D2533174800A28D8D /* ACCheckerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696EB4C2533174800A28D8D /* ACCheckerUITests.swift */; };
+		2696EBA525331BEB00A28D8D /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696EBA425331BEB00A28D8D /* Input.swift */; };
+		2696EBAE25331CF000A28D8D /* InputFormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696EBAD25331CF000A28D8D /* InputFormVC.swift */; };
+		2696EBBA25331DF900A28D8D /* InputFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696EBB925331DF900A28D8D /* InputFormData.swift */; };
+		2696EBCA253321A600A28D8D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696EBC9253321A600A28D8D /* HomeViewController.swift */; };
+		4B43E5659F2FAB21CB1A360B /* Pods_ACChecker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC666D4716FD2B5E7213671 /* Pods_ACChecker.framework */; };
+		B01F5953E063F7CFF620AA3D /* Pods_ACChecker_ACCheckerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7B2A505B006418503176A3 /* Pods_ACChecker_ACCheckerUITests.framework */; };
+		D80EC2BA99731B367355742F /* Pods_ACCheckerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B18400A5858C979A2555FEC /* Pods_ACCheckerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +67,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A3F486F334EC5B8CBAD32F5 /* Pods-ACCheckerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACCheckerTests.debug.xcconfig"; path = "Target Support Files/Pods-ACCheckerTests/Pods-ACCheckerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		264608CE25332A0E00E6EDD7 /* InsetTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
+		264608CF25332A0E00E6EDD7 /* CollectionPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionPicker.swift; sourceTree = "<group>"; };
+		264608D025332A0E00E6EDD7 /* TextViewInputCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewInputCell.swift; sourceTree = "<group>"; };
+		264608D125332A0E00E6EDD7 /* ButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
+		264608D225332A0E00E6EDD7 /* SelectInputCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectInputCell.swift; sourceTree = "<group>"; };
+		264608D325332A0F00E6EDD7 /* TextViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewVC.swift; sourceTree = "<group>"; };
+		264608D425332A0F00E6EDD7 /* TypedInputCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypedInputCell.swift; sourceTree = "<group>"; };
+		264608D525332A0F00E6EDD7 /* FormInputCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormInputCell.swift; sourceTree = "<group>"; };
+		264608E125332A1500E6EDD7 /* ButtonRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonRow.swift; sourceTree = "<group>"; };
+		264608E225332A1600E6EDD7 /* TextViewRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewRow.swift; sourceTree = "<group>"; };
+		264608E325332A1600E6EDD7 /* SelectRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectRow.swift; sourceTree = "<group>"; };
+		264608E425332A1600E6EDD7 /* TypedRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypedRow.swift; sourceTree = "<group>"; };
+		264608E525332A1600E6EDD7 /* FormRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormRow.swift; sourceTree = "<group>"; };
+		264608EE25332A1C00E6EDD7 /* LayoutUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutUtility.swift; sourceTree = "<group>"; };
+		264608EF25332A1C00E6EDD7 /* FormDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormDataSource.swift; sourceTree = "<group>"; };
+		264608F825332B9600E6EDD7 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2646090125332CDB00E6EDD7 /* UIViewController+InputDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+InputDialog.swift"; sourceTree = "<group>"; };
+		2646090825332DB900E6EDD7 /* WeatherAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPIService.swift; sourceTree = "<group>"; };
+		2646091025332E0400E6EDD7 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		2646091D253333C000E6EDD7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		264609232533352C00E6EDD7 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		2646095B2533389600E6EDD7 /* WeatherRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRouter.swift; sourceTree = "<group>"; };
+		264609612533390300E6EDD7 /* WeatherInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInfoVC.swift; sourceTree = "<group>"; };
+		2646096A253340E200E6EDD7 /* MainViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViews.swift; sourceTree = "<group>"; };
+		264609722533456700E6EDD7 /* Int+DateFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+DateFormat.swift"; sourceTree = "<group>"; };
 		2696EB242533174500A28D8D /* ACChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2696EB272533174500A28D8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2696EB292533174500A28D8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2696EB2B2533174500A28D8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2696EB2E2533174500A28D8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2696EB312533174500A28D8D /* ACChecker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ACChecker.xcdatamodel; sourceTree = "<group>"; };
 		2696EB332533174800A28D8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +107,18 @@
 		2696EB482533174800A28D8D /* ACCheckerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACCheckerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2696EB4C2533174800A28D8D /* ACCheckerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACCheckerUITests.swift; sourceTree = "<group>"; };
 		2696EB4E2533174800A28D8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2696EBA425331BEB00A28D8D /* Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Input.swift; sourceTree = "<group>"; };
+		2696EBAD25331CF000A28D8D /* InputFormVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputFormVC.swift; sourceTree = "<group>"; };
+		2696EBB925331DF900A28D8D /* InputFormData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputFormData.swift; sourceTree = "<group>"; };
+		2696EBC9253321A600A28D8D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4B18400A5858C979A2555FEC /* Pods_ACCheckerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACCheckerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79D4E0831F4BEE321F7F668B /* Pods-ACChecker-ACCheckerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACChecker-ACCheckerUITests.release.xcconfig"; path = "Target Support Files/Pods-ACChecker-ACCheckerUITests/Pods-ACChecker-ACCheckerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8EC666D4716FD2B5E7213671 /* Pods_ACChecker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACChecker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7B2A505B006418503176A3 /* Pods_ACChecker_ACCheckerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACChecker_ACCheckerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E06F62929AAA0B5C01A6CC8B /* Pods-ACChecker-ACCheckerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACChecker-ACCheckerUITests.debug.xcconfig"; path = "Target Support Files/Pods-ACChecker-ACCheckerUITests/Pods-ACChecker-ACCheckerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E69FCDE554609FA4DC4EC06F /* Pods-ACCheckerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACCheckerTests.release.xcconfig"; path = "Target Support Files/Pods-ACCheckerTests/Pods-ACCheckerTests.release.xcconfig"; sourceTree = "<group>"; };
+		F3387F8F10C186D65B461E13 /* Pods-ACChecker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACChecker.debug.xcconfig"; path = "Target Support Files/Pods-ACChecker/Pods-ACChecker.debug.xcconfig"; sourceTree = "<group>"; };
+		FFB62FDCBD041F4E98AF6B3A /* Pods-ACChecker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACChecker.release.xcconfig"; path = "Target Support Files/Pods-ACChecker/Pods-ACChecker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B43E5659F2FAB21CB1A360B /* Pods_ACChecker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D80EC2BA99731B367355742F /* Pods_ACCheckerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +142,138 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B01F5953E063F7CFF620AA3D /* Pods_ACChecker_ACCheckerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25343CFBCFCBF4A4FD1F499D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3387F8F10C186D65B461E13 /* Pods-ACChecker.debug.xcconfig */,
+				FFB62FDCBD041F4E98AF6B3A /* Pods-ACChecker.release.xcconfig */,
+				E06F62929AAA0B5C01A6CC8B /* Pods-ACChecker-ACCheckerUITests.debug.xcconfig */,
+				79D4E0831F4BEE321F7F668B /* Pods-ACChecker-ACCheckerUITests.release.xcconfig */,
+				0A3F486F334EC5B8CBAD32F5 /* Pods-ACCheckerTests.debug.xcconfig */,
+				E69FCDE554609FA4DC4EC06F /* Pods-ACCheckerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		264608C9253329E100E6EDD7 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2696EB2D2533174500A28D8D /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		264608CA253329E900E6EDD7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				264608CB253329EF00E6EDD7 /* ObjectForm */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		264608CB253329EF00E6EDD7 /* ObjectForm */ = {
+			isa = PBXGroup;
+			children = (
+				264608CD253329F900E6EDD7 /* row */,
+				264608CC253329F300E6EDD7 /* view */,
+				264608EF25332A1C00E6EDD7 /* FormDataSource.swift */,
+				264608EE25332A1C00E6EDD7 /* LayoutUtility.swift */,
+			);
+			path = ObjectForm;
+			sourceTree = "<group>";
+		};
+		264608CC253329F300E6EDD7 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				264608D125332A0E00E6EDD7 /* ButtonCell.swift */,
+				264608CF25332A0E00E6EDD7 /* CollectionPicker.swift */,
+				264608D525332A0F00E6EDD7 /* FormInputCell.swift */,
+				264608CE25332A0E00E6EDD7 /* InsetTextField.swift */,
+				264608D225332A0E00E6EDD7 /* SelectInputCell.swift */,
+				264608D025332A0E00E6EDD7 /* TextViewInputCell.swift */,
+				264608D325332A0F00E6EDD7 /* TextViewVC.swift */,
+				264608D425332A0F00E6EDD7 /* TypedInputCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		264608CD253329F900E6EDD7 /* row */ = {
+			isa = PBXGroup;
+			children = (
+				264608E125332A1500E6EDD7 /* ButtonRow.swift */,
+				264608E525332A1600E6EDD7 /* FormRow.swift */,
+				264608E325332A1600E6EDD7 /* SelectRow.swift */,
+				264608E225332A1600E6EDD7 /* TextViewRow.swift */,
+				264608E425332A1600E6EDD7 /* TypedRow.swift */,
+			);
+			path = row;
+			sourceTree = "<group>";
+		};
+		2646090025332CB900E6EDD7 /* Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+				2646090125332CDB00E6EDD7 /* UIViewController+InputDialog.swift */,
+				264609722533456700E6EDD7 /* Int+DateFormat.swift */,
+			);
+			path = Extenstions;
+			sourceTree = "<group>";
+		};
+		2646090725332DA900E6EDD7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2646090825332DB900E6EDD7 /* WeatherAPIService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		264609222533350F00E6EDD7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				264609232533352C00E6EDD7 /* WeatherViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2646092B253335A500E6EDD7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2696EB272533174500A28D8D /* AppDelegate.swift */,
+				2696EB292533174500A28D8D /* SceneDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2646095A2533380800E6EDD7 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				2646095B2533389600E6EDD7 /* WeatherRouter.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		26460960253338E500E6EDD7 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				264609612533390300E6EDD7 /* WeatherInfoVC.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		26460969253340D500E6EDD7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2646096A253340E200E6EDD7 /* MainViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		2696EB1B2533174500A28D8D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +281,8 @@
 				2696EB402533174800A28D8D /* ACCheckerTests */,
 				2696EB4B2533174800A28D8D /* ACCheckerUITests */,
 				2696EB252533174500A28D8D /* Products */,
+				25343CFBCFCBF4A4FD1F499D /* Pods */,
+				3956D54A881666273EBA3AC1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +299,17 @@
 		2696EB262533174500A28D8D /* ACChecker */ = {
 			isa = PBXGroup;
 			children = (
-				2696EB272533174500A28D8D /* AppDelegate.swift */,
-				2696EB292533174500A28D8D /* SceneDelegate.swift */,
-				2696EB2B2533174500A28D8D /* ViewController.swift */,
-				2696EB2D2533174500A28D8D /* Main.storyboard */,
+				2646091D253333C000E6EDD7 /* Constants.swift */,
+				2646095A2533380800E6EDD7 /* Navigation */,
+				2646092B253335A500E6EDD7 /* Common */,
+				2646090725332DA900E6EDD7 /* Networking */,
+				2696EBAC25331CDF00A28D8D /* Controllers */,
+				264609222533350F00E6EDD7 /* ViewModels */,
+				2696EB6C25331B3700A28D8D /* Models */,
+				26460969253340D500E6EDD7 /* Views */,
+				264608C9253329E100E6EDD7 /* Storyboards */,
+				2646090025332CB900E6EDD7 /* Extenstions */,
+				264608CA253329E900E6EDD7 /* Sources */,
 				2696EB332533174800A28D8D /* Assets.xcassets */,
 				2696EB352533174800A28D8D /* LaunchScreen.storyboard */,
 				2696EB382533174800A28D8D /* Info.plist */,
@@ -131,6 +336,53 @@
 			path = ACCheckerUITests;
 			sourceTree = "<group>";
 		};
+		2696EB6C25331B3700A28D8D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2696EBA425331BEB00A28D8D /* Input.swift */,
+				2646091025332E0400E6EDD7 /* WeatherData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2696EBAC25331CDF00A28D8D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				264608F825332B9600E6EDD7 /* BaseViewController.swift */,
+				2696EBC82533219700A28D8D /* Home */,
+				2696EBC125331FEE00A28D8D /* input */,
+				26460960253338E500E6EDD7 /* Weather */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2696EBC125331FEE00A28D8D /* input */ = {
+			isa = PBXGroup;
+			children = (
+				2696EBAD25331CF000A28D8D /* InputFormVC.swift */,
+				2696EBB925331DF900A28D8D /* InputFormData.swift */,
+			);
+			path = input;
+			sourceTree = "<group>";
+		};
+		2696EBC82533219700A28D8D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2696EBC9253321A600A28D8D /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3956D54A881666273EBA3AC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EC666D4716FD2B5E7213671 /* Pods_ACChecker.framework */,
+				CF7B2A505B006418503176A3 /* Pods_ACChecker_ACCheckerUITests.framework */,
+				4B18400A5858C979A2555FEC /* Pods_ACCheckerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +390,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2696EB512533174800A28D8D /* Build configuration list for PBXNativeTarget "ACChecker" */;
 			buildPhases = (
+				977F431DD72CFEECD465D530 /* [CP] Check Pods Manifest.lock */,
 				2696EB202533174500A28D8D /* Sources */,
 				2696EB212533174500A28D8D /* Frameworks */,
 				2696EB222533174500A28D8D /* Resources */,
+				525229CC691D419695F5C3E8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +409,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2696EB542533174800A28D8D /* Build configuration list for PBXNativeTarget "ACCheckerTests" */;
 			buildPhases = (
+				F519B997F2C9C91715F5C6FC /* [CP] Check Pods Manifest.lock */,
 				2696EB392533174800A28D8D /* Sources */,
 				2696EB3A2533174800A28D8D /* Frameworks */,
 				2696EB3B2533174800A28D8D /* Resources */,
@@ -173,9 +428,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2696EB572533174800A28D8D /* Build configuration list for PBXNativeTarget "ACCheckerUITests" */;
 			buildPhases = (
+				5711DC7F06BBDCD4573523CD /* [CP] Check Pods Manifest.lock */,
 				2696EB442533174800A28D8D /* Sources */,
 				2696EB452533174800A28D8D /* Frameworks */,
 				2696EB462533174800A28D8D /* Resources */,
+				1502491FA65DB3DC57871F7A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,15 +513,146 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1502491FA65DB3DC57871F7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ACChecker-ACCheckerUITests/Pods-ACChecker-ACCheckerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ACChecker-ACCheckerUITests/Pods-ACChecker-ACCheckerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ACChecker-ACCheckerUITests/Pods-ACChecker-ACCheckerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		525229CC691D419695F5C3E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ACChecker/Pods-ACChecker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ACChecker/Pods-ACChecker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ACChecker/Pods-ACChecker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5711DC7F06BBDCD4573523CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ACChecker-ACCheckerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		977F431DD72CFEECD465D530 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ACChecker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F519B997F2C9C91715F5C6FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ACCheckerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2696EB202533174500A28D8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2696EB2C2533174500A28D8D /* ViewController.swift in Sources */,
+				2646090925332DB900E6EDD7 /* WeatherAPIService.swift in Sources */,
+				264609622533390300E6EDD7 /* WeatherInfoVC.swift in Sources */,
+				264608E825332A1600E6EDD7 /* SelectRow.swift in Sources */,
+				2696EBBA25331DF900A28D8D /* InputFormData.swift in Sources */,
+				264608F125332A1C00E6EDD7 /* FormDataSource.swift in Sources */,
+				264608F925332B9600E6EDD7 /* BaseViewController.swift in Sources */,
+				2696EBAE25331CF000A28D8D /* InputFormVC.swift in Sources */,
+				2646095C2533389600E6EDD7 /* WeatherRouter.swift in Sources */,
+				264608D725332A0F00E6EDD7 /* CollectionPicker.swift in Sources */,
+				264608EA25332A1600E6EDD7 /* FormRow.swift in Sources */,
+				264608F025332A1C00E6EDD7 /* LayoutUtility.swift in Sources */,
+				2696EBCA253321A600A28D8D /* HomeViewController.swift in Sources */,
+				2646090225332CDB00E6EDD7 /* UIViewController+InputDialog.swift in Sources */,
+				264608DA25332A0F00E6EDD7 /* SelectInputCell.swift in Sources */,
+				2646091125332E0400E6EDD7 /* WeatherData.swift in Sources */,
+				264608DD25332A0F00E6EDD7 /* FormInputCell.swift in Sources */,
+				264608D825332A0F00E6EDD7 /* TextViewInputCell.swift in Sources */,
+				264608D625332A0F00E6EDD7 /* InsetTextField.swift in Sources */,
+				2696EBA525331BEB00A28D8D /* Input.swift in Sources */,
+				2646096B253340E200E6EDD7 /* MainViews.swift in Sources */,
+				264609732533456700E6EDD7 /* Int+DateFormat.swift in Sources */,
+				264609242533352C00E6EDD7 /* WeatherViewModel.swift in Sources */,
 				2696EB282533174500A28D8D /* AppDelegate.swift in Sources */,
+				264608D925332A0F00E6EDD7 /* ButtonCell.swift in Sources */,
+				264608E725332A1600E6EDD7 /* TextViewRow.swift in Sources */,
+				264608DB25332A0F00E6EDD7 /* TextViewVC.swift in Sources */,
 				2696EB2A2533174500A28D8D /* SceneDelegate.swift in Sources */,
 				2696EB322533174500A28D8D /* ACChecker.xcdatamodeld in Sources */,
+				264608E625332A1600E6EDD7 /* ButtonRow.swift in Sources */,
+				264608E925332A1600E6EDD7 /* TypedRow.swift in Sources */,
+				264608DC25332A0F00E6EDD7 /* TypedInputCell.swift in Sources */,
+				2646091E253333C000E6EDD7 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +825,7 @@
 		};
 		2696EB522533174800A28D8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3387F8F10C186D65B461E13 /* Pods-ACChecker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +845,7 @@
 		};
 		2696EB532533174800A28D8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFB62FDCBD041F4E98AF6B3A /* Pods-ACChecker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +865,7 @@
 		};
 		2696EB552533174800A28D8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A3F486F334EC5B8CBAD32F5 /* Pods-ACCheckerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +888,7 @@
 		};
 		2696EB562533174800A28D8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E69FCDE554609FA4DC4EC06F /* Pods-ACCheckerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +911,7 @@
 		};
 		2696EB582533174800A28D8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E06F62929AAA0B5C01A6CC8B /* Pods-ACChecker-ACCheckerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +932,7 @@
 		};
 		2696EB592533174800A28D8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79D4E0831F4BEE321F7F668B /* Pods-ACChecker-ACCheckerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

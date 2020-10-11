@@ -1,0 +1,35 @@
+PODS:
+  - Alamofire (5.2.2)
+  - MKBeaconXProSDK (1.0.1):
+    - MKBeaconXProSDK/MKBeaconXProSDK (= 1.0.1)
+    - MKBeaconXProSDK/MKBLEBaseSDK (= 1.0.1)
+  - MKBeaconXProSDK/MKBeaconXProSDK (1.0.1):
+    - MKBeaconXProSDK/MKBLEBaseSDK
+  - MKBeaconXProSDK/MKBLEBaseSDK (1.0.1)
+  - SwiftMessages (8.0.2):
+    - SwiftMessages/App (= 8.0.2)
+  - SwiftMessages/App (8.0.2)
+  - TinyConstraints (4.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - MKBeaconXProSDK
+  - SwiftMessages
+  - TinyConstraints
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - MKBeaconXProSDK
+    - SwiftMessages
+    - TinyConstraints
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  MKBeaconXProSDK: a4839cecf4d909c083f24d2f58f778480e132f7b
+  SwiftMessages: 633304165351b8e3dcbb81a71f8efcd86f9c1669
+  TinyConstraints: 8dd91295e56797648c7bc335dd20e1d91ec4c192
+
+PODFILE CHECKSUM: dd9ea46686b5af2779e8fcbcf627fb1d656e62dc
+
+COCOAPODS: 1.8.4

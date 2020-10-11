@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-ACChecker-ACCheckerUITests/Pods-ACChecker-ACCheckerUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/MKBeaconXProSDK/MKBeaconXProSDK.framework
+${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework
+${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework
